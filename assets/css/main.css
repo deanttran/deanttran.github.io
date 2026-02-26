@@ -4000,3 +4000,19 @@ input, select, textarea {
 	.wrapper.style1 header.major p {
     		color: white;
 	}
+	/* Scratch project layout */
+	.project-layout {
+  	display: flex;
+  	gap: 30px;
+  	align-items: flex-start;
+  	margin-bottom: 40px;
+	}
+
+	.project-embed iframe {
+  	max-width: 100%;
+  	border-radius: 8px;
+	}
+
+	.project-text {
+  	flex: 1;
+	}
